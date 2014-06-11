@@ -25,7 +25,7 @@ before_script:
 #   - sh -c "cd phpiredis && phpize && ./configure --enable-phpiredis --with-hiredis-dir=/usr/local && make --silent && sudo make install"
  # - echo "extension=phpiredis.so" >> `php --ini | grep "Loaded Configuration" | sed -e "s|.*:\s*||"`
   - sudo composer self-update
-  - sudo composer install --dev
+#  - sudo composer install --dev
   - sh init.sh
 
 php:
